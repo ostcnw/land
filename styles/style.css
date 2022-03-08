@@ -13,6 +13,17 @@
   box-sizing: border-box;
 }
 
+
+#content{
+  height:300px;
+  background-color:yellow;
+  margin-top:50px;
+}
+
+#body.push-down{
+  margin-bottom:250px;
+}
+
 a {
   text-decoration: none;
   color: #222;
@@ -70,4 +81,15 @@ body {
 .button--icon {
   min-width: initial;
   padding: 0.5rem;
+}
+
+.p1 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.li {
+  font-size: 18px;
+  text-align: center;
+  font-weight: 900;
 }
