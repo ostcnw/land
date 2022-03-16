@@ -71,7 +71,7 @@
    border-style: none
 }
 .tp-caption.finewide_small_white {
-   color: #fff;
+   color: rgb(255, 255, 255);
    text-shadow: none;
    font-size: 25px;
    line-height: 25px;

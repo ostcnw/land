@@ -1,1 +1,1 @@
-#Website created by the Lovely People in iTEAM Corporation
+#Website created by the Lovely People in iTeam Corp
