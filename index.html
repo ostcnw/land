@@ -273,7 +273,7 @@
       <div class="container">
          <div class="col-md-12 text-center wow fadeInUp">
             <h3 class="section-title">Activities </h3>
-            <p class="subheading">If the weather is nice, these are the activities we will be providing outside:</p>
+            <p class="subheading">These are the activities that we will be hosting</p>
          </div>
          <div class="row features-row wow fadeInUp">
             <div class="col-md-4 col-sm-12 feature-column">
@@ -293,7 +293,7 @@
                </div>
                <div class="feature-info">
                   <h4>Archery</h4>
-                  <p class="feature-description">There will be Archery inside the grand hall. Safety measures and equipment provided by Oakland Community Parks.</p>
+                  <p class="feature-description">There will be Archery inside the grand hall. Safety measures and equipment provided by Oakland County Parks.</p>
                </div>
             </div>
             <div class="col-md-4 col-sm-12 feature-column">
@@ -315,7 +315,7 @@
                </div>
                <div class="feature-info">
                   <h4> Resume Editing/interviews </h4>
-                  <p class="feature-description"> We've set up a station for anyone to review and edit their resumes, as well as interview for jobs at Oakland parks .</p>
+                  <p class="feature-description"> We've set up a station for anyone to review and edit their resumes, as well as interview for jobs at Oakland Parks .</p>
                </div>
             </div>
             <div class="col-md-4 col-sm-12 feature-column">
@@ -343,7 +343,8 @@
    <!--End Features Section -->
 
    <!-- Start Get Connected -->
-   
+   <!-- <a href="#features" class="btn btn-primary btn-scroll">
+      https://www.governmentjobs.com/careers/oakgov?department%5b0%5d=Parks%20and%20Recreation&sort=PositionTitle%7cAscending -->
  
 
     <!-- Start About Section -->
@@ -351,17 +352,21 @@
       <div class="container">
          <div class="row">
             <div class="col-md-6 text-left about-text">
-               <h3 class="wow fadeInUp" class="btn btn-primary btn-md"><a href="https://www.governmentjobs.com/careers/oakgov?department%5b0%5d=Parks%20and%20Recreation&sort=PositionTitle%7cAscending">View Open Jobs</h3>
+               <h3 class="wow fadeInUp">Jobs</h3>
+               <p class="wow fadeInUp"> Here is a small list of jobs we have <ul>
+                  <li>Archery Facilitator</li>
+                  <li>Concession Cook</li>
+                  <li>Parks Seasonal Laborer</li>
+                  <li>Concession Worker</li>
+               </ul>
                <p class="wow fadeInUp">
-               
-                  <button type="button" class="btn btn-primary btn-md">Get in Touch</button>
-               </p>
+                  <button type="button" class="btn btn-primary btn-md" href="https://www.governmentjobs.com/careers/oakgov?department%5b0%5d=Parks%20and%20Recreation&sort=PositionTitle%7cAscending" target="_blank">See More</button>
             </div>
             <div class="col-md-6 wow fadeInUp about-text">
                   <div class="video-container">
-                                <iframe src="https://youtu.be/anBiU98mrqQ" allowfullscreen></iframe>
+                     <iframe src="https://youtu.be/anBiU98mrqQ" allowfullscreen></iframe>
                                 
-                            </div>
+                  </div>
                 <!-- <h3 class="wow fadeInUp"> The Experiance </h3>
                <div class="progress-bars">
                   <p>Branding</p>
@@ -394,9 +399,9 @@
       <div class="container">
          <div class="row">
             <div class="col-md-12 text-center">
-               <h3 class="wow fadeInUp">Fill out our form</h3>
+               <h3 class="wow fadeInUp">Contact Form</h3>
                <p class="wow fadeInUp"> For questions you may have </p>
-               <a href="https://iteam.live/survey/index.php/632492?lang=en" class="btn btn-primary btn-scroll">
+               <a href="https://iteam.live/survey/index.php/632492?lang=en" class="btn btn-primary btn-scroll" target="_blank">
                   Form
                </a>
             </div>
@@ -406,19 +411,35 @@
    <!-- End Call to Action 1 -->
    
    <!-- Start Google Map Section -->
-   <!-- <div id="map"></div>
-   
+    <div id="map"></div> 
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB2mpXY8wT9cypvwZ0_mQC2OLrx5I-S46M&callback=initMap">
+  </script>
+    <script>
+      $('.map')
+        .gmap3({
+          center:[48.8620722, 2.352047],
+          zoom:4
+        })
+        .marker([
+          {position:[48.8620722, 2.352047]},
+          {address:"12451 Andersonville Rd, Davisburg, MI 48350"},
+          {address:"12451 Andersonville Rd, Davisburg, MI 48350", icon: "https://maps.google.com/mapfiles/marker_grey.png"}
+        ])
+        .on('click', function (marker) {
+          marker.setIcon('https://maps.google.com/mapfiles/marker_green.png');
+        });
+    </script>
    <div class="col-md-4 col-sm-12 feature-column">
       <div class="feature-icon">
-         <i class=""></i> -->
-         <!-- <i class="icon-energy back-icon"></i> -->
-      <!-- </div>
+         <i class=""></i>  
+       </div>
       <div class="feature-info">
          <h4>Address</h4>
          <p class="feature-description">12451 Andersonville Rd, Davisburg, MI 48350</p>
       </div>
    </div>
-</div> -->
+</div> 
 
    <!-- End Google Map Section -->
    <!-- custom -->
