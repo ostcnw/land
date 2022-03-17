@@ -148,7 +148,7 @@
     ---------------------*/
     $("#map").gmap3({
         marker:{     
-        address:"44 W 66th St, New York, NY", 
+        address:"12451 Andersonville Rd, Davisburg, MI 48350", 
         options:{ icon: "../img/assets/marker.png"}},
         map:{
         options:{
